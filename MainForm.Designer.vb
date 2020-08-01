@@ -65,7 +65,7 @@ Partial Class MainForm
         '
         Me.mnuFileNew.Name = "mnuFileNew"
         Me.mnuFileNew.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.N), System.Windows.Forms.Keys)
-        Me.mnuFileNew.Size = New System.Drawing.Size(180, 22)
+        Me.mnuFileNew.Size = New System.Drawing.Size(146, 22)
         Me.mnuFileNew.Text = "&New"
         Me.mnuFileNew.ToolTipText = "Press Alt+N or Ctrl+N to start new text file"
         '
@@ -73,7 +73,7 @@ Partial Class MainForm
         '
         Me.mnuFileOpen.Name = "mnuFileOpen"
         Me.mnuFileOpen.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.O), System.Windows.Forms.Keys)
-        Me.mnuFileOpen.Size = New System.Drawing.Size(180, 22)
+        Me.mnuFileOpen.Size = New System.Drawing.Size(146, 22)
         Me.mnuFileOpen.Text = "&Open"
         Me.mnuFileOpen.ToolTipText = "Press Alt+O or Ctrl+O to open existing text file"
         '
@@ -81,27 +81,27 @@ Partial Class MainForm
         '
         Me.mnuFileSave.Name = "mnuFileSave"
         Me.mnuFileSave.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.S), System.Windows.Forms.Keys)
-        Me.mnuFileSave.Size = New System.Drawing.Size(180, 22)
+        Me.mnuFileSave.Size = New System.Drawing.Size(146, 22)
         Me.mnuFileSave.Text = "&Save"
         Me.mnuFileSave.ToolTipText = "Press Alt+S or Ctrl+S to save text file"
         '
         'mnuFileSaveAs
         '
         Me.mnuFileSaveAs.Name = "mnuFileSaveAs"
-        Me.mnuFileSaveAs.Size = New System.Drawing.Size(180, 22)
+        Me.mnuFileSaveAs.Size = New System.Drawing.Size(146, 22)
         Me.mnuFileSaveAs.Text = "S&ave As"
         Me.mnuFileSaveAs.ToolTipText = "Press Alt+A to save file"
         '
         'mnuFileClose
         '
         Me.mnuFileClose.Name = "mnuFileClose"
-        Me.mnuFileClose.Size = New System.Drawing.Size(180, 22)
+        Me.mnuFileClose.Size = New System.Drawing.Size(146, 22)
         Me.mnuFileClose.Text = "Close"
         '
         'mnuFileExit
         '
         Me.mnuFileExit.Name = "mnuFileExit"
-        Me.mnuFileExit.Size = New System.Drawing.Size(180, 22)
+        Me.mnuFileExit.Size = New System.Drawing.Size(146, 22)
         Me.mnuFileExit.Text = "E&xit"
         Me.mnuFileExit.ToolTipText = "Press Alt+X to exit"
         '
@@ -117,7 +117,7 @@ Partial Class MainForm
         '
         Me.mnuEditCopy.Name = "mnuEditCopy"
         Me.mnuEditCopy.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.C), System.Windows.Forms.Keys)
-        Me.mnuEditCopy.Size = New System.Drawing.Size(180, 22)
+        Me.mnuEditCopy.Size = New System.Drawing.Size(144, 22)
         Me.mnuEditCopy.Text = "&Copy"
         Me.mnuEditCopy.ToolTipText = "Press Alt+C or Ctrl+C to copy selected text"
         '
@@ -125,7 +125,7 @@ Partial Class MainForm
         '
         Me.mnuEditCut.Name = "mnuEditCut"
         Me.mnuEditCut.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.X), System.Windows.Forms.Keys)
-        Me.mnuEditCut.Size = New System.Drawing.Size(180, 22)
+        Me.mnuEditCut.Size = New System.Drawing.Size(144, 22)
         Me.mnuEditCut.Text = "Cu&t"
         Me.mnuEditCut.ToolTipText = "Press Alt+T ot Ctrl+X to cut selected text"
         '
@@ -133,7 +133,7 @@ Partial Class MainForm
         '
         Me.mnuEditPaste.Name = "mnuEditPaste"
         Me.mnuEditPaste.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.V), System.Windows.Forms.Keys)
-        Me.mnuEditPaste.Size = New System.Drawing.Size(180, 22)
+        Me.mnuEditPaste.Size = New System.Drawing.Size(144, 22)
         Me.mnuEditPaste.Text = "&Paste"
         Me.mnuEditPaste.ToolTipText = "Press Alt+P or Ctrl+V to paste text from clipboard"
         '
@@ -142,14 +142,15 @@ Partial Class MainForm
         Me.mnuHelp.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.mnuHelpAbout})
         Me.mnuHelp.Name = "mnuHelp"
         Me.mnuHelp.Size = New System.Drawing.Size(44, 20)
-        Me.mnuHelp.Text = "Help"
+        Me.mnuHelp.Text = "&Help"
         Me.mnuHelp.ToolTipText = "Press Alt+H or click here to browse Help options"
         '
         'mnuHelpAbout
         '
         Me.mnuHelpAbout.Name = "mnuHelpAbout"
         Me.mnuHelpAbout.Size = New System.Drawing.Size(180, 22)
-        Me.mnuHelpAbout.Text = "About"
+        Me.mnuHelpAbout.Text = "A&bout"
+        Me.mnuHelpAbout.ToolTipText = "Press Alt+B to select About"
         '
         'OpenFileDialog
         '
